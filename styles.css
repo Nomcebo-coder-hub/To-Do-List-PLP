@@ -119,3 +119,16 @@ body {
   padding-bottom: 0px;
   outline: 0;
 }
+
+.toDoList {
+  text-align: left;
+}
+
+.toDoList li {
+  position: relative;
+  padding: 0.5rem;
+}
+
+.toDoList li:hover {
+  text-decoration: line-through wavy #24bffb;
+}
